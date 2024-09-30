@@ -1,0 +1,96 @@
+h1, h2, h3, h4, h5 {
+  font-family: 'Markazi Text', serif;
+  font-weight: 500;
+}
+
+body {
+  font-family: 'Karla', sans-serif;
+}
+
+header, footer {
+  padding: 1rem;
+}
+
+footer {
+  background-color: #495E57;
+  color: #fff;
+  ul {
+    padding-inline-start: 0;
+    li {
+      list-style-type: none;
+      a {
+        color: #fff;
+        text-decoration: underline;
+        &:hover, &:focus {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+h2, h3, h4, h5 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.img-header-link {
+  flex: .5;
+}
+
+.img-header-logo {
+  max-width: 15rem;
+  height: auto;
+}
+
+nav.top-menu {
+  flex: 1;
+  ul {
+    text-align: right;
+    > li {
+      display: inline;
+      padding: 0 1rem;
+      a {
+        color: #3b3b3b;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 1.25rem;
+        &:hover, &:focus {
+          text-decoration: underline;
+        }
+        .cart-icon {
+          width: 50px;
+          height: auto;
+        }
+      }
+    }
+  }
+}
+
+header > .content-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+}
+
+footer > .content-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  > .column {
+    vertical-align: top;
+    margin: 1rem;
+    flex: 1;
+  }
+}

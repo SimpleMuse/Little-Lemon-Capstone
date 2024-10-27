@@ -4,10 +4,10 @@ const Footer = () => {
     <footer>
       <div class='content-container'>
         <div class='container'>
-          <div class='column'>
+          <div class='column column-left'>
             Little Lemon restaurant is a local neighborhood bistro serving up simple dishes made with the freshest local ingredients. It's casual environment and daily specials make it a great choice for the best Mediterranean inspired dishes around.
           </div>
-          <div class='column'>
+          <div class='column column-right'>
             <h2>Social Media</h2>
             <ul>
               <li><a href='https://facebook.com'>Facebook</a></li>

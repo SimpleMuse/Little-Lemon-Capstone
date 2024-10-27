@@ -3,8 +3,20 @@ h1, h2, h3, h4, h5 {
   font-weight: 500;
 }
 
-body {
+h1 {
+  color: #F4CE14;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.main-top {
+  background-color: #FBDABB;
+  height: 20px;
+}
+
+p {
   font-family: 'Karla', sans-serif;
+  font-size: 16px;
 }
 
 header, footer {
@@ -26,6 +38,12 @@ footer {
         }
       }
     }
+  }
+  .column-left {
+    text-align: left;
+  }
+  .column-right {
+    text-align: right;
   }
 }
 
@@ -63,15 +81,16 @@ nav.top-menu {
           text-decoration: underline;
         }
         .cart-icon {
-          width: 50px;
+          width: 30px;
           height: auto;
+          vertical-align: bottom;
         }
       }
     }
   }
 }
 
-header > .content-container {
+header .content-container {
   margin-left: auto;
   margin-right: auto;
   max-width: 1200px;
@@ -79,10 +98,12 @@ header > .content-container {
   flex-direction: row;
 }
 
-footer > .content-container {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1200px;
+main, footer {
+  .content-container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+  }
 }
 
 .container {
@@ -94,3 +115,39 @@ footer > .content-container {
     flex: 1;
   }
 }
+
+.home-page-feature {
+  background-color: #495E57;
+  color: #fff;
+  .home-page-feature-wrapper {
+    display: flex;
+    flex-direction: row;
+    img {
+      width: 75%;
+      height: auto;
+    }
+    .flex-column-right {
+      flex: 1;
+      padding: 1rem;
+    }
+    .flex-column-left {
+      flex: .75;
+      padding: 1rem;
+      text-align: center;
+    }
+  }
+}
+
+button.little-lemon-btn {
+  background-color: #F4CE14;
+  padding: .5rem .75rem;
+  border-radius: 10px;
+  border: 0;
+  font-weight: 600;
+  &:hover, &:focus {
+    cursor: pointer;
+    text-decoration: underline;
+    filter: brightness(85%);
+  }
+}
+

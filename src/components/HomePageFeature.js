@@ -3,17 +3,17 @@ import MarioAndAdrian from '../assets/img/MarioAndAdrian.jpg';
 const HomePageFeature = () => {
 
   return (
-    <div class="home-page-feature">
-      <div class="content-container">
-        <div class="home-page-feature-wrapper">
-          <div class="flex-column-left">
-            <img src={MarioAndAdrian} />
+    <div className="home-page-feature">
+      <div className="content-container">
+        <div className="home-page-feature-wrapper">
+          <div className="flex-column-left">
+            <img src={MarioAndAdrian} alt="Two chefs smiling as they plan the evening's menu." />
           </div>
-          <div class="flex-column-right">
+          <div className="flex-column-right">
             <h1>Little Lemon</h1>
             <h2>Chicago</h2>
             <p>A family owned restaurant serving your favorite Mediterranean dishes with a twist.</p>
-            <button class="little-lemon-btn">Reserve a Table</button>
+            <button className="little-lemon-btn">Reserve a Table</button>
           </div>
         </div>
       </div>

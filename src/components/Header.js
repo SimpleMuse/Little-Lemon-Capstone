@@ -4,9 +4,9 @@ import Nav from './Nav';
 const Header = () => {
   return (
     <header>
-      <div class='content-container'>
-        <a href='/' class='img-header-link'>
-          <img class='img-header-logo' src={Logo} alt='Little Lemon Logo' />
+      <div className='content-container'>
+        <a href='/' className='img-header-link'>
+          <img className='img-header-logo' src={Logo} alt='Little Lemon Logo' />
         </a>
         <Nav />
       </div>

@@ -1,15 +1,22 @@
 h1, h2, h3, h4, h5 {
   font-family: 'Markazi Text', serif;
   font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 h1 {
   color: #F4CE14;
+  font-size: 4rem;
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
 }
 
-.main-top {
+h2 {
+  font-size: 2rem;
+}
+
+.section-top {
   background-color: #FBDABB;
   height: 20px;
 }
@@ -47,11 +54,6 @@ footer {
   }
 }
 
-h2, h3, h4, h5 {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
 .text-center {
   text-align: center;
 }
@@ -76,7 +78,7 @@ nav.top-menu {
         color: #3b3b3b;
         text-decoration: none;
         font-weight: 600;
-        font-size: 1.25rem;
+        font-size: 1rem;
         &:hover, &:focus {
           text-decoration: underline;
         }
@@ -151,3 +153,62 @@ button.little-lemon-btn {
   }
 }
 
+.float-end {
+  float: inline-end;
+}
+
+h2.weekly-special-header {
+  margin: 2rem 1rem 0 1rem;
+}
+
+.featured-card-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.featured-item-card {
+  flex: 1;
+  margin: 1rem;
+  border-radius: 15px;
+  background-color: #eeeeee;
+  .featured-item-card-img {
+    img {
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+      height: 200px;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+  .featured-item-header, .featured-item-description {
+    margin: 1rem;
+  }
+  .featured-item-header h3 {
+    font-size: 1.25rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header .content-container {
+    flex-direction: column;
+  }
+  nav.top-menu ul {
+    text-align: left;
+    padding-inline-start: 0;
+  }
+  .home-page-feature .home-page-feature-wrapper {
+    flex-direction: column;
+    & img {
+      width: 100%;
+    }
+  }
+  .featured-card-wrapper {
+    flex-direction: column;
+  }
+  .container {
+    flex-direction: column;
+  }
+  footer .column-right {
+    text-align: center;
+  }
+}

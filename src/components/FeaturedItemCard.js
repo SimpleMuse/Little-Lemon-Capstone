@@ -1,6 +1,5 @@
 
 const FeaturedItemCard = ({imgPath, imgAltText, header, amt, description}) => {
-
   return (
     <div className="featured-item-card">
       <div className="featured-item-card-img">

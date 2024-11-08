@@ -1,0 +1,23 @@
+[
+  {
+    "imgPath": "/img/greek_salad.jpg",
+    "imgAltText": "An image of a fresh greek salad.",
+    "header": "Greek Salad",
+    "amt": "$19.50",
+    "description": "Our famous greek salad, a fresh mix of lettuce, peppers, olives and feta cheese, tossed in a zesty dressing, and topped with crunchy croutons."
+  },
+  {
+    "imgPath": "/img/bruchetta.svg",
+    "imgAltText": "An image of bruchetta.",
+    "header": "Bruchetta",
+    "amt": "$11.99",
+    "description": "Start your meal off with our best appetizer, toasted bread fresh daily from a local bakery, with a cubed tomato topping drizzled with olive oil and balsamic vinegar."
+  },
+  {
+    "imgPath": "/img/lemon_dessert.jpg",
+    "imgAltText": "A delicious layered lemon cake.",
+    "header": "Lemon Layer Cake",
+    "amt": "$7.99",
+    "description": "Light and moist lemon cake layered with lemon curd makes this a favorite and refreshing dessert choice."
+  }
+]

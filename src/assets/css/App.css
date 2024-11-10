@@ -262,6 +262,10 @@ form div {
   margin-bottom: 1rem;
 }
 
+.error-msg {
+  color: #ff0000;
+}
+
 @media screen and (max-width: 768px) {
   header .content-container {
     flex-direction: column;

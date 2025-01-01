@@ -1,7 +1,9 @@
-import MarioAndAdrian from '../assets/img/MarioAndAdrian.jpg';
+import { useNavigate } from 'react-router-dom';
+import MarioAndAdrian from '../../assets/img/MarioAndAdrian.jpg';
 
 const HomePageFeature = () => {
-
+  let navigate = useNavigate();
+  
   return (
     <div className="home-page-feature">
       <div className="content-container">
@@ -13,7 +15,7 @@ const HomePageFeature = () => {
             <h1>Little Lemon</h1>
             <h2>Chicago</h2>
             <p>A family owned restaurant serving your favorite Mediterranean dishes with a twist.</p>
-            <button className="little-lemon-btn">Reserve a Table</button>
+            <button onClick={() => { navigate('/reservations') }} className="little-lemon-btn">Reserve a Table</button>
           </div>
         </div>
       </div>

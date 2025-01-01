@@ -1,5 +1,5 @@
-import Logo from '../assets/img/logo.jpg';
-import Nav from './Nav';
+import Logo from '../../assets/img/logo.jpg';
+import Nav from '../Nav';
 
 const Header = () => {
   return (

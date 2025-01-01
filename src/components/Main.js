@@ -1,5 +1,5 @@
-import HomePageFeature from "./HomePageFeature";
-import FeaturedItemCards from "./FeaturedItemCards";
+import HomePageFeature from "./FeaturedItems/HomePageFeature";
+import FeaturedItemCards from "./FeaturedItems/FeaturedItemCards";
 
 const Main = () => {
   return (

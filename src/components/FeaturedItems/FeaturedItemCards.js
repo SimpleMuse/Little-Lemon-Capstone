@@ -1,4 +1,4 @@
-import features from '../assets/data/featured.json';
+import features from '../../assets/data/featured.json';
 import FeaturedItemCard from './FeaturedItemCard';
 
 const FeaturedItemCards = () => {
